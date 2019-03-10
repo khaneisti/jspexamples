@@ -1,0 +1,14 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple example to print current date</title>
+</head>
+<body>
+
+Current date is : <%= new Date() %> //as we know in java java.util.*; package automatically imported so Date class present in this package.
+</body>
+</html>
